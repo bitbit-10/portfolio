@@ -1,0 +1,265 @@
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+  font-size: 62.5%;
+  /*font-family: "Gotham SSm A", "Gotham SSm B", sans-serif;*/
+  font-family: garamond,sans-serif;
+  background-color: rgb(224,255,254);
+  margin: 0;
+}
+#top-pane {
+  width: 100%;
+  float: left;
+  /*color: #ffff01;*/
+  color: #cdcd00;
+  /*color: #000084;*/
+  background-color: #e0fffe;
+}
+.top-container{
+  width: 70%;
+  height: 10em;
+  margin: 3% auto 0 auto;
+}
+
+.profilepic-pane {
+  width: 7%;
+  float: left;
+}
+.profilepic-container {
+  width: 100%;
+  padding-top: 133%;
+  position: relative;
+}
+
+.profile-pic {
+  background-image: url("../images/colourfulpic.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 0.7em;
+  border: 0.3em solid #e0fffb;
+}
+#title{
+  width: 50%;
+  font-size: 2.5em;
+  text-align: left;
+  letter-spacing: 0.05em;
+  margin-top: 2%;
+  padding-left: 2.5%;
+  float: left;
+}
+
+#one {
+  width: 100%;
+  margin-top: 10%;
+  padding-top: 16%;
+  background-color: #e0fffe;
+  position: fixed;
+  z-index: -1;
+}
+#two {
+  width: 100%;
+  margin-top: 26%;
+  padding-top: 16%;
+  background-color: #e0fffb;
+  position: fixed;
+  z-index: -1;
+}
+#three {
+  width: 100%;
+  margin-top: 42%;
+  padding-top: 16%;
+  background-color: #e0fff9;
+  position: fixed;
+  z-index: -1;
+}
+#four {
+  width: 100%;
+  margin-top: 58%;
+  padding-top: 16%;
+  background-color: #e0fffb;
+  position: fixed;
+  z-index: -1;
+}
+#five {
+  width: 100%;
+  margin-top: 74%;
+  padding-top: 16%;
+  background-color: #e0fffe;
+  position: fixed;
+  z-index: -1;
+}
+
+#main-container {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 3%;
+  float: left;
+}
+
+.right-pane {
+  width: 80%;
+  margin: 0 auto 0 auto;
+}
+.proj-card {
+  width: 100%;
+  height:30%;
+  margin-bottom: 3%;
+  background-color: #fffbf3;
+  -webkit-box-shadow: 0px 0px 10px rgba(255,255,1,0.5);
+  border-radius: 0.5em;
+  padding-left: 3em;
+}
+.dot {
+  height: 0.7em;
+  width: 0.7em;
+  border-radius: 50%;
+  background-color: rgba(255,234,1,0.5);
+  position: absolute;
+}
+#one-dot{
+  margin-left: -3.3em;
+  margin-top: -0.3em;
+}
+#two-dot{
+  margin-left: 60.5%;
+  margin-top: -0.3em;
+}
+#three-dot{
+  margin-left: -3.3em;
+  margin-top: -0.3em;
+}
+#four-dot{
+  margin-left: 60.5%;
+  margin-top: -0.3em;
+}
+#five-dot{
+  margin-left: -3.3em;
+  margin-top: -0.3em;
+}
+#six-dot{
+  margin-left: 60.5%;
+  margin-top: -0.3em;
+}
+#seven-dot{
+  margin-left: -3.3em;
+  margin-top: -0.3em;
+}
+#eight-dot{
+  margin-left: 60.5%;
+  margin-top: -0.3em;
+}
+.proj-card-left-wrap {
+  width: 50%;
+  display: inline-block;
+}
+.proj-card-left {
+  width: 100%;
+  float:left;
+  padding-top: 86.15%;
+  position: relative;
+}
+
+#monoto {
+  background-image: url("../images/monoto-pic.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+#personal-dashboard {
+  background-image: url("../images/personal-dashboard-pic.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+#proj-img-text-dashboard{
+  display: none;
+  font-size: 1.7em;
+  letter-spacing: 0.05em;
+  text-align: center;
+  background-color: rgba(255,255,255,1);
+  position:absolute;
+  height: 100%;
+  width: 100%;
+  top:0;
+  left:0;
+  padding-top: 25%;
+  line-height: 1.5;
+}
+
+#proj-img-text-monoto{
+  display: none;
+  background-image: url("../images/monoto-email.jpeg");
+  background-position: center;
+  background-size: 72%;
+  background-repeat: no-repeat;
+  background-color: rgba(255,255,255,1);
+  position:absolute;
+  height: 100%;
+  width: 100%;
+  top:0;
+  left:0;
+}
+
+.proj-card-left:hover #proj-img-text-dashboard{
+  display:block;
+}
+.proj-card-left:hover #proj-img-text-monoto{
+  display:block;
+}
+
+.proj-card-right {
+  width: 50%;
+  float: right;
+  padding-top: 1em;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+.proj-title {
+  font-size: 1.6em;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+ul {
+  margin-left: -1.8em;
+}
+li{
+  font-size: 1.2em;
+  letter-spacing: 0.05em;
+  line-height: 1.4em;
+  margin-bottom: 0.5em;
+}
+.tech-stack {
+  width: 45%;
+  float: left;
+  margin-top: 5%;
+  margin-left: 5%;
+  font-size: 1.2em;
+  letter-spacing: 0.05em;
+  line-height: 1.4em;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
