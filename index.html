@@ -1,130 +1,165 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>
-      Personal Page
-    </title>
+<head>
     <link type="text/css" rel="stylesheet" href="style.css">
-  </head>
+    <title>Portfolio</title>
+</head>
   <body>
-    <!-- == Left Pane-->
-      <div id="top-pane">
-        <div class="top-container">
-          <div class="profilepic-pane">
-            <div class="profilepic-container">
-              <div class="profile-pic">
+    <!-- Landing page -->
+      <div class="parallax" id="slide-a">
+      </div>
+      <!-- Portfolio Thumbnails -->
+      <div id="slide-1">
+        <p id="title">Portfolio</p>
 
-              </div>
+          <div class="portfolio-img-container">
+            <div id="portfolio-img-card-one">
+                <a href="https://bitbit-10.github.io/personal-dashboard/"><img src="images/personal-dashboard-pic.png" alt="" id="pers-dashb-img"></a>
+                <p class="proj-title">Personal Dashboard</p>
+            </div>
+            <div id="portfolio-img-card-two">
+                <img src="images/monoto-pic.png" alt="" id="monoto-img-one">
+                <p class="proj-title">Monoto</p>
+                <p class="proj-subtitle">Online Store</p>
             </div>
           </div>
-          <div id="title">Gaby</div>
+      </div>
+      <!-- Parallax Background -->
+      <div class="parallax" id="slide-b">
+        <div class="quote">
+            "A day without sunshine is like, you know, night."  ~ Steve Martin
         </div>
       </div>
-    <div id="background-container">
-      <div id="one"></div>
-      <div id="two"></div>
-      <div id="three"></div>
-      <div id="four"></div>
-      <div id="five"></div>
-    </div>
-    <div id="main-container">
-    <!-- == Right Pane-->
-      <div class="right-pane">
-        <div class="proj-card">
-          <div class="dot" id="one-dot"></div>
-          <div class="dot" id="two-dot"></div>
-          <a href="https://bitbit-10.github.io/personal-dashboard/">
-            <div class="proj-card-left-wrap">
-              <div class="proj-card-left">
-                <div class="proj-img" id="personal-dashboard">
-                </div>
-                <div id="proj-img-text-dashboard">
-                  Click to<br>
-                  try it<br>
-                  out!<br>
-                </div>
-            </div>
-            </div>
+      <!-- Portfolio Proj Details -->
+      <!-- Proj 1 === Personal Dashboard -->
+      <div id="slide-2">
+        <div class="proj-dets-title-container">
+          <p class="proj-dets-maintitle">Personal Dashboard</p>
+          <p class="proj-dets-subtitle">Date, Music, Notes</p>
+        </div>
+        <div class="proj-dets-img-container">
+          <a href="https://bitbit-10.github.io/personal-dashboard/" target="_blank">
+            <img src="images/personal-dashboard-pic.png" alt="">
           </a>
-          <div class="proj-card-right">
-              <p class="proj-title">
-                Personal Dashboard
-              </p>
-              <p class="proj-desc">
+          <!-- <a href="https://bitbit-10.github.io/personal-dashboard/" target="_blank">
+            <div class="clickme-dot personal-dashboard"></div>
+          </a>
+          <a href="https://bitbit-10.github.io/personal-dashboard/" target="_blank">
+            <div class="clickme-text personal-dashboard">click me</div>
+          </a> -->
+        </div>
+
+
+          <div class="proj-dets-text-container">
+            <div class="points">
                 <ul>
                   <li>
-                    Desktop browser app, responsive for monitor sizes
+                    Desktop browser app, responsive for different monitor sizes
                   </li>
                   <li>
                     Calendar
                   </li>
                   <li>
-                    Youtube with searchbar for music or funny video
+                    YouTube with searchbar for music or funny video
                   </li>
                   <li>
                     Stickys for notes to self
                   </li>
                 </ul>
-              </p>
+              </div>
               <div class="tech-stack">
                 YouTube API<br>
                 IndexedDB<br>
                 JQuery<br>
-              </div>
-              <div class="tech-stack">
                 Javascript<br>
                 HTML<br>
                 CSS<br>
               </div>
           </div>
-          <div class="dot" id="three-dot"></div>
-          <div class="dot" id="four-dot"></div>
+      </div>
+      <!-- Parallax Background -->
+      <div class="parallax" id="slide-c">
+        <div class="quote">
+            "Momentum begets momentum, and the best way to start is to start"  ~  Gil Penchina
+        </div>
+      </div>
+      <!-- Proj 2 === Monoto -->
+      <div id="slide-3">
+        <div class="proj-dets-title-container monoto">
+          <p class="proj-dets-maintitle">Monoto</p>
+          <p class="proj-dets-subtitle">Online Store</p>
+        </div>
+        <!-- Img Container -->
+        <div class="proj-dets-img-container monoto">
+          <div id="monoto-img-main-holder">
+            <!-- Monoto - Main Pic -->
+            <a href="https://www.monoto.co/" target="_blank">
+              <img src="images/monoto-pic.png" alt="" id="monoto-img-main">
+            </a>
+            <!-- <a href="https://www.monoto.co/" target="_blank">
+              <div class="clickme-dot monoto"></div>
+            </a>
+            <a href="https://www.monoto.co/" target="_blank">
+              <div class="clickme-text monoto">click me</div>
+            </a> -->
+          </div>
+          <!-- Monoto - Email Pic -->
+          <div id="monoto-img-email-holder">
+            <a href="https://www.monoto.co/" target="_blank"><img src="images/monoto-email.jpeg" alt="" id="monoto-img-email"></a>
+          </div>
         </div>
 
-        <div class="proj-card">
-          <div class="dot" id="five-dot"></div>
-          <div class="dot" id="six-dot"></div>
-          <a href="https://www.monoto.co/">
-            <div class="proj-card-left-wrap">
-              <div class="proj-card-left">
-                <div class="proj-img" id="monoto">
-                </div>
-                <div id="proj-img-text-monoto">
-                </div>
+          <div class="proj-dets-text-container monoto">
+            <div class="points monoto">
+              <ul>
+                <li>
+                  Media responsive - app + email
+                </li>
+                <li>
+                  Login / Logout & Reset Password through email link
+                </li>
+                <li>
+                  Zoom in / out on product images
+                </li>
+                <li>
+                  Inventory is updated to limit purchase quantity to amount that is available
+                </li>
+                <li>
+                  Stripe Payment
+                </li>
+                <li>
+                  Sends an Order Confirmation email to Customer and Store Admin upon payment confirmation
+                </li>
+                <li>
+                  Flash error / success messages for forms
+                </li>
+                <li>
+                  Flash and post messages "added to cart", "not available" and "sold out"
+                </li>
+              </ul>
               </div>
-            </div>
-          </a>
-          <div class="proj-card-right">
-              <p class="proj-title">
-                Online Store
-              </p>
-              <p class="proj-desc">
-                <ul>
-                  <li>
-                    Sends an Order Confirmation email to Customer and Store Admin upon payment confirmation
-                  </li>
-                  <li>
-                    Media responsive - app + email
-                  </li>
-                </ul>
-              </p>
-              <div class="tech-stack">
+              <div class="tech-stack monoto">
                 Node.js<br>
                 MongoDB<br>
                 Amazon AWS<br>
                 Stripe<br>
-              </div>
-              <div class="tech-stack">
                 Javascript<br>
                 HTML<br>
                 CSS<br>
               </div>
           </div>
-          <div class="dot" id="seven-dot"></div>
-          <div class="dot" id="eight-dot"></div>
-        </div>
-
       </div>
-    </div>
+
+      <!-- Parallax Background -->
+      <div class="parallax" id="slide-d">
+        <div class="quote">
+            "I've only had two rules: Do all you can and do it the best you can. It's the only way you ever get that feeling of accomplishing something."  ~  Colonel Sanders
+        </div>
+      </div>
+
+      <div class="clickme" id="click1">
+      </div>
+
+
   </body>
 </html>
