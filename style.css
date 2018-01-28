@@ -1,47 +1,61 @@
 body, html {
-height: 100%;
 color: #474747;
 font-size: 62.5%;
+height: 100%;
+width:100%;
 }
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-#slide-a, #slide-b, #slide-c, #slide-d {
-  /*background-image: url("images/Background/jj-ying-236821.jpg");*/
-  background-image: url("images/vadim-sherbakov-277610-smaller.jpg");
-  /*background-image: url("images/vadim-sherbakov-277610.jpg");*/
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center;
+#background {
+    height: 100%;
+    width:100%;
+    /*background-image: url("images/Background/jj-ying-236821.jpg");*/
+    background-image: url("images/vadim-sherbakov-277610-smaller.jpg");
+    /*background-image: url("images/vadim-sherbakov-277610.jpg");*/
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    position: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: -10;
 }
 
-#slide-a {
+#slide-a-spacer {
   height: 77%;
+  width:100%;
+  opacity: 0.0;
+}
+#slide-1 {
+  height: 23%;
+  background-color: white;
+  /*77% 23%*/
 }
 #slide-b {
   height: 30%;
-}
-#slide-c {
-  height: 20%;
-}
-#slide-d {
-  height: 30%;
-}
-
-#slide-1 {
-  height: 23%;
-  /*77% 23%*/
+  opacity: 0.0;
 }
 #slide-2 {
   height: 55%;
+  background-color: white;
 }
-
+#slide-c {
+  height: 20%;
+  opacity: 0.0;
+}
 #slide-3 {
   height: 105%;
+  background-color: white;
 }
+#slide-d {
+  height: 30%;
+  opacity: 0.0;
+}
+
 #title {
   margin-top: 6%;
   text-align: center;
@@ -217,11 +231,7 @@ font-size: 62.5%;
   /*border: 1px solid green;*/
   float: right;
 }
-@media (max-width: 1024px) {
-  #slide-a, #slide-b, #slide-c, #slide-d{
-    background-attachment: scroll;
-  }
-}
+
 @media only screen and (min-width: 400px) {
   .proj-dets-img-container.monoto {
     width: 80%;
