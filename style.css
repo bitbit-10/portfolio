@@ -10,12 +10,14 @@ font-size: 62.5%;
 }
 #slide-a, #slide-b, #slide-c, #slide-d {
   /*background-image: url("images/Background/jj-ying-236821.jpg");*/
-  background-image: url("images/vadim-sherbakov-277610.jpg");
+  background-image: url("images/vadim-sherbakov-277610-smaller.jpg");
+  /*background-image: url("images/vadim-sherbakov-277610.jpg");*/
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
 }
+
 #slide-a {
   height: 77%;
 }
@@ -214,6 +216,11 @@ font-size: 62.5%;
   width: 17%;
   /*border: 1px solid green;*/
   float: right;
+}
+@media (max-width: 1024px) {
+  #slide-a {
+    background-attachment: scroll;
+  }
 }
 @media only screen and (min-width: 400px) {
   .proj-dets-img-container.monoto {
