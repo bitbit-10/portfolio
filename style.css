@@ -12,9 +12,12 @@ width:100%;
 #background {
     height: 100%;
     width:100%;
-    /*background-image: url("images/Background/jj-ying-236821.jpg");*/
+    /*background-image: url("images/jj-ying-236821.jpg");*/
+    /*background-image: url("images/carlos-dominguez-210162.jpg");*/
+    /*background-image: url("images/pawel-nolbert-291146.jpg");*/
+    /*background-image: url("images/martin-reisch-272883.jpg");*/
+
     background-image: url("images/vadim-sherbakov-277610-smaller.jpg");
-    /*background-image: url("images/vadim-sherbakov-277610.jpg");*/
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -26,40 +29,41 @@ width:100%;
 }
 
 #slide-a-spacer {
-  height: 77%;
+  height: 70%;
   width:100%;
-  opacity: 0.0;
+  background: transparent;
 }
 #slide-1 {
-  height: 23%;
+  height: 30%;
   background-color: white;
-  /*77% 23%*/
 }
 #slide-b {
   height: 30%;
-  opacity: 0.0;
+  background: transparent;
 }
 #slide-2 {
-  height: 55%;
+  height: 77%;
   background-color: white;
 }
 #slide-c {
   height: 20%;
-  opacity: 0.0;
+  background: transparent;
 }
 #slide-3 {
-  height: 105%;
+  height: 97%;
   background-color: white;
 }
 #slide-d {
   height: 30%;
-  opacity: 0.0;
+  background: transparent;
 }
 
 #title {
-  margin-top: 6%;
+  float: left;
+  width: 100%;
+  margin: 6% auto 5% auto;
   text-align: center;
-  font-size: 2.5em;
+  font-size: 2.3em;
   text-transform: uppercase;
   font-family: "proxima nova", "Helvetica Neue", Helvetica, Arial, Sans-serif;
   letter-spacing: 0.1em;
@@ -69,7 +73,7 @@ width:100%;
   text-align: center;
   text-transform: uppercase;
   margin-top: 5%;
-  font-size: 2em;
+  font-size: 1.8em;
   font-family: "proxima nova", "Helvetica Neue", Helvetica, Arial, Sans-serif;
   letter-spacing: 0.1em;
 }
@@ -83,7 +87,7 @@ width:100%;
 }
 .portfolio-img-container {
   width: 65%;
-  margin: 7% auto 0% auto;
+  margin: 0% auto 0% auto;
 }
   #portfolio-img-card-one {
     width: 45%;
@@ -102,9 +106,11 @@ width:100%;
 
 /*Proj Details*/
 .proj-dets-title-container {
-  width: 75%;
+  width: 100%;
+  float: left;
   text-align: center;
-  margin: 12% auto 0 auto;
+  margin-top: 10%;
+  margin-bottom: 7%;
   color: #3d3d3d;
 }
 
@@ -122,7 +128,7 @@ width:100%;
 }
 .proj-dets-img-container {
   width: 75%;
-  margin: 14% auto 0 auto;
+  margin: 0 auto 0 auto;
 }
 .proj-dets-img-container img {
   width: 100%;
@@ -130,17 +136,16 @@ width:100%;
   img {
     border: 1px solid rgba(0,0,0,0.1);
   }
-.proj-dets-title-container.monoto {
-  width: 65%;
-}
+
 .proj-dets-img-container.monoto {
   width: 75%;
   height: 20%;
-  margin: 14% auto 0 auto;
 }
 
   #monoto-img-main-holder{
     height: 100%;
+    width: 100%;
+    float: left;
   }
   #monoto-img-main-holder img {
     height: 100%;
@@ -153,7 +158,7 @@ width:100%;
     height: 100%;
     width: 100%;
     float: left;
-    margin-top: 10%;
+    margin-top: 3%;
   }
   #monoto-img-email-holder img {
     width: auto;
@@ -197,24 +202,25 @@ width:100%;
   }
 
 .proj-dets-text-container {
-  width: 65%;
-  margin: 11% auto 2% auto;
-  font-size: 2.3em;
+  width: 75%;
+  margin-top: 7%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2.0em;
   line-height: 150%;
-  /*font-family: Nobel,sans-serif;*/
   font-family: "adobe-caslon-pro",serif;
   letter-spacing: 0.03em;
 }
 .proj-dets-text-container.monoto {
   width: 100%;
   float: left;
-  margin-top: 11%;
-  padding-left: 14%;
-  padding-right: 14%;
+  margin-top: 4%;
+  padding-left: 13%;
+  padding-right: 5%;
 }
 .quote {
   width: 96%;
-  font-size: 2.2em;
+  font-size: 1.9em;
   color: grey;
   font-style: italic;
   letter-spacing: 0.01em;
@@ -222,14 +228,22 @@ width:100%;
   margin-left: 3%;
 }
 .points{
-  width: 80%;
-  /*border: 1px solid green;*/
+  width: 70%;
   float: left;
 }
 .tech-stack {
-  width: 17%;
-  /*border: 1px solid green;*/
+  width: 28%;
   float: right;
+}
+.points.monoto {
+  width: 75%;
+  float: left;
+  /*border: 1px solid red;*/
+}
+.tech-stack.monoto {
+  width: 22%;
+  float: right;
+  /*border: 1px solid green;*/
 }
 
 @media only screen and (min-width: 400px) {
