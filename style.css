@@ -218,7 +218,7 @@ font-size: 62.5%;
   float: right;
 }
 @media (max-width: 1024px) {
-  #slide-a {
+  #slide-a, #slide-b, #slide-c, #slide-d{
     background-attachment: scroll;
   }
 }
