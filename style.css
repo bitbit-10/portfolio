@@ -247,6 +247,18 @@ width:100%;
 }
 
 @media only screen and (min-width: 400px) {
+  #slide-a-spacer {
+    height: 68%;
+  }
+  #slide-1 {
+    height: 32%;
+  }
+  #slide-2 {
+    height: 80%;
+  }
+  #slide-3 {
+    height: 99%;;
+  }
   .proj-dets-img-container.monoto {
     width: 80%;
     height: 21%;
@@ -321,25 +333,14 @@ width:100%;
 .proj-dets-img-container.monoto {
   width: 89%;
   height: 35%;
-  margin: 10% auto 0 auto;
 }
 #monoto-img-main-holder{
-  display: inline-block;
-  float: left;
-}
-#monoto-img-main-holder img {
-  height: 100%;
   width: auto;
 }
 #monoto-img-email-holder{
-  display: inline-block;
   width: auto;
   float: right;
-  margin-top: 0;
-}
-#monoto-img-email-holder img {
-  width: auto;
-  height: 100%;
+  margin-top: 0%;
 }
 .proj-dets-text-container.monoto {
   margin-top: 9%;
@@ -358,19 +359,28 @@ width:100%;
 .proj-dets-img-container.monoto {
   width: 88%;
   height: 38%;
-  margin: 10% auto 0 auto;
+}
+#monoto-img-main-holder{
+  width: auto;
 }
 #monoto-img-email-holder{
   width: auto;
+  float: right;
+  margin-top: 0%;
+}
 }
 @media only screen and (min-width: 700px) {
 .proj-dets-img-container.monoto {
   width: 84%;
   height: 39%;
-  margin: 10% auto 0 auto;
+}
+#monoto-img-main-holder{
+  width: auto;
 }
 #monoto-img-email-holder{
   width: auto;
+  float: right;
+  margin-top: 0%;
 }
 }
 @media only screen and (min-width: 750px) {
@@ -378,13 +388,18 @@ width:100%;
     width: 82%;
     height: 40%;
   }
+  #monoto-img-main-holder{
+    width: auto;
+  }
   #monoto-img-email-holder{
     width: auto;
+    float: right;
+    margin-top: 0%;
   }
   }
 /* DESKTOP */
 /*== Media Responsive for different Desktop browser window size ==*/
-@media only screen and (min-width: 765px) {
+@media only screen and (min-width: 768px) {
   #slide-a {
     height: 65%;
   }
@@ -413,12 +428,11 @@ width:100%;
       width: 44%;
     }
   .proj-dets-title-container {
-    margin: 6% auto 0 auto;
+    margin: 8% auto 6% auto;
   }
 
   .proj-dets-img-container {
     width: 50%;
-    margin: 6% auto 0 auto;
   }
   .proj-dets-text-container {
     width: 50%;
@@ -432,10 +446,18 @@ width:100%;
   .tech-stack {
     width: 21.5%;
   }
+  /*===*/
   .proj-dets-img-container.monoto {
-    width: 83%;
-    height: 40%;
-    margin: 6% auto 0 auto;
+    width: 85%;
+    height: 37%;
+  }
+  #monoto-img-main-holder{
+    width: auto;
+  }
+  #monoto-img-email-holder{
+    width: auto;
+    float: right;
+    margin-top: 0%;
   }
   .proj-dets-text-container.monoto {
     margin-top: 5%;
@@ -463,6 +485,7 @@ width:100%;
   }
   #monoto-img-email-holder{
     width: auto;
+    margin-top: 0%;
   }
   }
 @media only screen and (min-width: 850px) {
@@ -472,6 +495,8 @@ width:100%;
   }
   #monoto-img-email-holder{
     width: auto;
+    float: right;
+    margin-top: 0%;
   }
   }
   @media only screen and (min-width: 900px) {
@@ -481,6 +506,8 @@ width:100%;
     }
     #monoto-img-email-holder{
       width: auto;
+      float: right;
+      margin-top: 0%;
     }
     }
 @media only screen and (min-width: 950px) {
@@ -489,6 +516,8 @@ width:100%;
   }
   #monoto-img-email-holder{
     width: auto;
+    float: right;
+    margin-top: 0%;
   }
 }
 @media only screen and (min-width: 1000px) {
@@ -507,7 +536,7 @@ width:100%;
     margin: 3.5% auto 0% auto;
   }
   .proj-dets-title-container {
-    margin: 5.5% auto 0 auto;
+    margin: 7% auto 5.5% auto;
   }
 
   .proj-dets-img-container {
@@ -519,7 +548,6 @@ width:100%;
   .proj-dets-img-container.monoto {
     width: 67%;
     height: 42%;
-    margin: 3.5% auto 0 auto;
   }
   .proj-dets-text-container.monoto {
     margin-top: 5%;
@@ -538,6 +566,8 @@ width:100%;
   }
   #monoto-img-email-holder{
     width: auto;
+    float: right;
+    margin-top: 0%;
   }
 }
 @media only screen and (min-width: 1100px) {
@@ -567,6 +597,8 @@ width:100%;
   }
   #monoto-img-email-holder{
     width: auto;
+    float: right;
+    margin-top: 0%;
   }
 }
 @media only screen and (min-width: 1200px) {
@@ -576,6 +608,8 @@ width:100%;
   }
   #monoto-img-email-holder{
     width: auto;
+    float: right;
+    margin-top: 0%;
   }
 }
 
@@ -586,6 +620,8 @@ width:100%;
   }
   #monoto-img-email-holder{
     width: auto;
+    float: right;
+    margin-top: 0%;
   }
 }
 @media only screen and (min-width: 1400px) {
@@ -595,6 +631,8 @@ width:100%;
   }
   #monoto-img-email-holder{
     width: auto;
+    float: right;
+    margin-top: 0%;
   }
 }
 @media only screen and (min-width: 1500px) {
@@ -604,6 +642,8 @@ width:100%;
   }
   #monoto-img-email-holder{
     width: auto;
+    float: right;
+    margin-top: 0%;
   }
 }
 
@@ -614,6 +654,8 @@ width:100%;
   }
   #monoto-img-email-holder{
     width: auto;
+    float: right;
+    margin-top: 0%;
   }
 }
 @media only screen and (min-width: 1700px) {
@@ -623,5 +665,7 @@ width:100%;
   }
   #monoto-img-email-holder{
     width: auto;
+    float: right;
+    margin-top: 0%;
   }
 }
