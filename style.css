@@ -29,12 +29,12 @@ width:100%;
 }
 
 #slide-a-spacer {
-  height: 70%;
+  height: 55%;
   width:100%;
   background: transparent;
 }
 #slide-1 {
-  height: 30%;
+  height: 45%;
   background-color: white;
 }
 #slide-b {
@@ -42,7 +42,7 @@ width:100%;
   background: transparent;
 }
 #slide-2 {
-  height: 77%;
+  height: 97%;
   background-color: white;
 }
 #slide-c {
@@ -50,7 +50,7 @@ width:100%;
   background: transparent;
 }
 #slide-3 {
-  height: 97%;
+  height: 190%;
   background-color: white;
 }
 #slide-d {
