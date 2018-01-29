@@ -68,6 +68,7 @@ width:100%;
   font-family: "proxima nova", "Helvetica Neue", Helvetica, Arial, Sans-serif;
   letter-spacing: 0.1em;
 }
+
 .proj-title {
   width: 100%;
   text-align: center;
@@ -77,6 +78,7 @@ width:100%;
   font-family: "proxima nova", "Helvetica Neue", Helvetica, Arial, Sans-serif;
   letter-spacing: 0.1em;
 }
+
 .proj-subtitle {
   width: 100%;
   text-align: center;
@@ -120,6 +122,7 @@ width:100%;
   font-family: "proxima nova", "Helvetica Neue", Helvetica, Arial, Sans-serif;
   letter-spacing: 0.1em;
 }
+
 .proj-dets-subtitle {
   margin-top: 1%;
   font-size: 1.7em;
@@ -218,6 +221,7 @@ width:100%;
   padding-left: 13%;
   padding-right: 5%;
 }
+
 .quote {
   width: 96%;
   font-size: 1.9em;
@@ -412,13 +416,31 @@ width:100%;
   #slide-3 {
     height: 85%;
   }
+  .proj-title {
+    font-size: 2em;
+  }
+  .proj-subtitle {
+    font-size: 1.7em;
+  }
+  .proj-dets-maintitle {
+    font-size: 2.5em;
+  }
+  .proj-dets-subtitle {
+    font-size: 1.9em;
+  }
+  .proj-dets-text-container {
+  font-size: 2.2em;
+  }
+  .quote {
+    font-size: 2.1em;
+  }
   /*===*/
   #title {
     margin-top: 3.5%;
+    font-size: 2.5em;
   }
   .portfolio-img-container {
     width: 45%;
-    margin: 4% auto 0% auto;
   }
     #portfolio-img-card-one {
       width: 44%;
@@ -446,6 +468,7 @@ width:100%;
   .tech-stack {
     width: 21.5%;
   }
+
   /*===*/
   .proj-dets-img-container.monoto {
     width: 85%;
@@ -489,9 +512,80 @@ width:100%;
   }
   }
 @media only screen and (min-width: 850px) {
+  #slide-a-spacer {
+    height: 65%;
+  }
+  #slide-1 {
+    height: 35%;
+  }
+  #slide-2 {
+    height: 90%;
+  }
+  #slide-3 {
+    height: 94%;
+  }
+  .proj-title {
+    font-size: 2.2em;
+  }
+  .proj-subtitle {
+    font-size: 1.9em;
+  }
+  .proj-dets-maintitle {
+    font-size: 2.7em;
+  }
+  .proj-dets-subtitle {
+    font-size: 2.1em;
+    margin-top: 0.5%;
+  }
+  .proj-dets-text-container {
+  font-size: 2.4em;
+  }
+  .quote {
+    font-size: 2.3em;
+  }
+  /*===*/
+  #title {
+    margin:4% auto 4.5% auto;
+    font-size: 2.7em;
+  }
+  .portfolio-img-container {
+    width: 37%;
+  }
+  #portfolio-img-card-one {
+    width: 44%;
+  }
+
+  #portfolio-img-card-two {
+    width: 44%;
+  }
+  .proj-dets-title-container {
+    margin: 6.5% auto 5% auto;
+  }
+
+  .proj-dets-img-container {
+    width: 45%;
+  }
+  .proj-dets-text-container {
+    width: 46%;
+  }
   .proj-dets-img-container.monoto {
-    width: 75%;
-    height: 40%;
+    width: 77%;
+    height: 39%;
+  }
+  .proj-dets-text-container.monoto {
+    margin-top: 5%;
+    padding-left: 21%;
+    padding-right: 18.5%;
+    /*border: 1px solid red;*/
+  }
+  .points.monoto{
+    width: 78%;
+    margin-left: 0%;
+    /*border: 1px solid blue;*/
+  }
+  .tech-stack.monoto {
+    width: 17%;
+    /*border: 1px solid green;*/
   }
   #monoto-img-email-holder{
     width: auto;
@@ -500,10 +594,83 @@ width:100%;
   }
   }
   @media only screen and (min-width: 900px) {
+    #slide-a-spacer {
+      height: 65%;
+    }
+    #slide-1 {
+      height: 35%;
+    }
+    #slide-2 {
+      height: 90%;
+    }
+    #slide-3 {
+      height: 94%;
+    }
+    .proj-title {
+      font-size: 2.2em;
+    }
+    .proj-subtitle {
+      font-size: 1.9em;
+    }
+    .proj-dets-maintitle {
+      font-size: 2.7em;
+    }
+    .proj-dets-subtitle {
+      font-size: 2.1em;
+      margin-top: 0.5%;
+    }
+    .proj-dets-text-container {
+    font-size: 2.4em;
+    }
+    .quote {
+      font-size: 2.3em;
+    }
+    /*===*/
+    #title {
+      margin:4% auto 4.5% auto;
+      font-size: 2.7em;
+    }
+    .portfolio-img-container {
+      width: 37%;
+    }
+    #portfolio-img-card-one {
+      width: 44%;
+    }
+
+    #portfolio-img-card-two {
+      width: 44%;
+    }
+    .proj-dets-title-container {
+      margin: 6.5% auto 5% auto;
+    }
+
+    .proj-dets-img-container {
+      width: 45%;
+    }
+    .proj-dets-text-container {
+      width: 46%;
+    }
+
     .proj-dets-img-container.monoto {
       width: 72%;
-      height: 40%;
+      height: 39.5%;
     }
+    .proj-dets-text-container.monoto {
+      margin-top: 5%;
+      padding-left: 21%;
+      padding-right: 18.5%;
+      /*border: 1px solid red;*/
+    }
+    .points.monoto{
+      width: 78%;
+      margin-left: 0%;
+      /*border: 1px solid blue;*/
+    }
+    .tech-stack.monoto {
+      width: 17%;
+      /*border: 1px solid green;*/
+    }
+
     #monoto-img-email-holder{
       width: auto;
       float: right;
@@ -511,9 +678,12 @@ width:100%;
     }
     }
 @media only screen and (min-width: 950px) {
+
   .proj-dets-img-container.monoto {
     width: 70%;
+    height: 39.5%;
   }
+
   #monoto-img-email-holder{
     width: auto;
     float: right;
@@ -521,33 +691,65 @@ width:100%;
   }
 }
 @media only screen and (min-width: 1000px) {
+  #slide-a-spacer {
+    height: 65%;
+  }
   #slide-1 {
-    height: 31.5%;
+    height: 35%;
+  }
+  #slide-2 {
+    height: 90%;
   }
   #slide-3 {
-    height: 85%;
+    height: 94%;
+  }
+  .proj-title {
+    font-size: 2.2em;
+  }
+  .proj-subtitle {
+    font-size: 1.9em;
+  }
+  .proj-dets-maintitle {
+    font-size: 2.7em;
+  }
+  .proj-dets-subtitle {
+    font-size: 2.1em;
+    margin-top: 0.5%;
+  }
+  .proj-dets-text-container {
+  font-size: 2.4em;
+  }
+  .quote {
+    font-size: 2.3em;
   }
   /*===*/
   #title {
-    margin-top: 3.5%;
+    margin: 3.5% auto 3% auto;
+    font-size: 2.7em;
   }
   .portfolio-img-container {
-    width: 43.5%;
-    margin: 3.5% auto 0% auto;
+    width: 34%;
+  }
+  #portfolio-img-card-one {
+    width: 42%;
+  }
+
+  #portfolio-img-card-two {
+    width: 42%;
   }
   .proj-dets-title-container {
-    margin: 7% auto 5.5% auto;
+    margin: 6.5% auto 5% auto;
   }
 
   .proj-dets-img-container {
     width: 45%;
   }
   .proj-dets-text-container {
-    width: 45%;
+    width: 46%;
   }
   .proj-dets-img-container.monoto {
-    width: 67%;
-    height: 42%;
+    width: 65%;
+    height: 39.5%;
   }
   .proj-dets-text-container.monoto {
     margin-top: 5%;
@@ -571,23 +773,56 @@ width:100%;
   }
 }
 @media only screen and (min-width: 1100px) {
+  #slide-a-spacer {
+    height: 65%;
+  }
+  #slide-1 {
+    height: 35%;
+  }
+  #slide-2 {
+    height: 95%;
+  }
+  #slide-3 {
+    height: 95%;
+  }
   #title {
-    margin-top: 3.5%;
+    margin: 3.5% auto 4% auto;
   }
   .portfolio-img-container {
-    width: 41%;
-    margin: 3% auto 0% auto;
+    width: 30%;
+    margin: 0% auto 0% auto;
   }
+
+  .proj-title {
+    font-size: 2em;
+  }
+  .proj-subtitle {
+    font-size: 1.7em;
+  }
+
+  .proj-subtitle {
+    margin-top: 0.8%;
+  }
+    #portfolio-img-card-one {
+      width: 43%;
+    }
+
+    #portfolio-img-card-two {
+      width: 43%;
+    }
+    .proj-dets-title-container {
+      margin: 6% auto 5% auto;
+    }
+
   .proj-dets-img-container {
-    width: 42%;
+    width: 41%;
   }
   .proj-dets-text-container {
     width: 43%;
   }
   .proj-dets-img-container.monoto {
     width: 59%;
-    height: 41%;
-    margin: 3.5% auto 0 auto;
+    height: 39%;
   }
   .proj-dets-text-container.monoto {
     margin-top: 5%;
@@ -602,21 +837,140 @@ width:100%;
   }
 }
 @media only screen and (min-width: 1200px) {
+  #slide-a-spacer {
+    height: 66%;
+  }
+  #slide-1 {
+    height: 34%;
+  }
+  #slide-2 {
+    height: 96%;
+  }
+  #slide-3 {
+    height: 95%;
+  }
+  #title {
+    margin: 3% auto 3.7% auto;
+  }
+  .portfolio-img-container {
+    width: 27%;
+    margin: 0% auto 0% auto;
+  }
+
+  .proj-title {
+    font-size: 2em;
+  }
+  .proj-subtitle {
+    font-size: 1.7em;
+  }
+
+  .proj-subtitle {
+    margin-top: 0.8%;
+  }
+    #portfolio-img-card-one {
+      width: 44%;
+    }
+
+    #portfolio-img-card-two {
+      width: 44%;
+    }
+    .proj-dets-title-container {
+      margin: 5% auto 4.5% auto;
+    }
+
+  .proj-dets-img-container {
+    width: 39%;
+  }
+  .proj-dets-text-container {
+    width: 41%;
+  }
   .proj-dets-img-container.monoto {
-    width: 54%;
-    height: 41%;
+    width: 56%;
+    height: 40%;
   }
   #monoto-img-email-holder{
     width: auto;
     float: right;
     margin-top: 0%;
   }
+
+  .proj-dets-text-container.monoto {
+    margin-top: 4%;
+    padding-left: 25%;
+    padding-right: 22%;
+  }
 }
 
 @media only screen and (min-width: 1300px) {
+  #slide-a-spacer {
+    height: 65%;
+    width:100%;
+  }
+  #slide-1 {
+    height: 35%;
+  }
+  /*#slide-b {
+    height: 30%;
+    background: transparent;
+  }*/
+  #slide-2 {
+    height: 98%;
+  }
+  /*#slide-c {
+    height: 20%;
+    background: transparent;
+  }*/
+  #slide-3 {
+    height: 94%;
+  }
+  /*#slide-d {
+    height: 30%;
+    background: transparent;
+  }*/
+
+  .portfolio-img-container {
+    width: 30%;
+  }
+  #portfolio-img-card-one {
+    width: 42.5%;
+  }
+
+  #portfolio-img-card-two {
+    width: 42.5%;
+  }
+
+  #title {
+    margin: 3% auto 2.5% auto;
+    font-size: 2.9em;
+  }
+  .proj-title {
+    font-size: 2.4em;
+  }
+  .proj-subtitle {
+    font-size: 2.1em;
+  }
+  .proj-dets-title-container {
+    margin: 6% auto 4% auto;
+  }
+  .proj-dets-maintitle {
+    font-size: 2.9em;
+  }
+  .proj-dets-subtitle {
+    font-size: 2.3em;
+  }
+  .proj-dets-text-container {
+  font-size: 2.5em;
+  }
+  .quote {
+    font-size: 2.5em;
+  }
+  .proj-dets-img-container {
+    width: 41%;
+    margin: 0 auto 0 auto;
+  }
   .proj-dets-img-container.monoto {
-    width: 50%;
-    height: 41%;
+    width: 52%;
+    height: 39%;
   }
   #monoto-img-email-holder{
     width: auto;
@@ -625,9 +979,47 @@ width:100%;
   }
 }
 @media only screen and (min-width: 1400px) {
+  #slide-2 {
+    height: 100%;
+  }
+  .proj-dets-title-container {
+    margin: 4% auto 3% auto;
+  }
+  .proj-dets-img-container {
+    width: 38%;
+  }
+  .proj-dets-text-container {
+    width: 40%;
+    margin: 3% auto 0% auto;
+  }
+  .points{
+    width: 71%;
+    margin-left: 6.5%;
+    /*border: 1px solid blue;*/
+  }
+  .tech-stack {
+    width: 21.5%;
+  }
+
+  .proj-dets-text-container.monoto {
+    margin-top: 3%;
+    padding-left: 30%;
+    padding-right: 27%;
+    /*border: 1px solid red;*/
+  }
+  .points.monoto{
+    width: 78%;
+    margin-left: 0%;
+    /*border: 1px solid blue;*/
+  }
+  .tech-stack.monoto {
+    width: 16%;
+    /*border: 1px solid green;*/
+  }
+
   .proj-dets-img-container.monoto {
-    width: 48%;
-    height: 41.5%;
+    width: 50%;
+    height: 40%;
   }
   #monoto-img-email-holder{
     width: auto;
@@ -638,7 +1030,7 @@ width:100%;
 @media only screen and (min-width: 1500px) {
   .proj-dets-img-container.monoto {
     width: 47%;
-    height: 43%;
+    height: 41%;
   }
   #monoto-img-email-holder{
     width: auto;
@@ -648,9 +1040,59 @@ width:100%;
 }
 
 @media only screen and (min-width: 1600px) {
+  #slide-a-spacer {
+    height: 60%;
+    width:100%;
+  }
+  #slide-1 {
+    height: 35%;
+  }
+  #slide-2 {
+    height: 93%;
+  }
+  .portfolio-img-container {
+    width: 26%;
+  }
+  #portfolio-img-card-one {
+    width: 42%;
+  }
+
+  #portfolio-img-card-two {
+    width: 42%;
+  }
+
+  #title {
+    margin: 2% auto 2% auto;
+    font-size: 2.9em;
+  }
+  .proj-title {
+    font-size: 2.4em;
+  }
+  .proj-subtitle {
+    font-size: 2.1em;
+  }
+  .proj-dets-img-container {
+    width: 35%;
+  }
+  .proj-dets-title-container {
+    margin: 3% auto 3% auto;
+  }
+  .proj-dets-subtitle {
+    margin-top: 0.4%;
+  }
+  .proj-dets-text-container {
+    width: 37%;
+  }
+  .points{
+    width: 71%;
+    margin-left: 7%;
+  }
+  .tech-stack {
+    width: 20.5%;
+  }
   .proj-dets-img-container.monoto {
     width: 45%;
-    height: 44%;
+    height: 42%;
   }
   #monoto-img-email-holder{
     width: auto;
@@ -659,9 +1101,40 @@ width:100%;
   }
 }
 @media only screen and (min-width: 1700px) {
+  #slide-a-spacer {
+    height: 63%;
+    width:100%;
+  }
+  #slide-1 {
+    height: 30%;
+  }
+  #slide-2 {
+    height: 99%;
+  }
+  .portfolio-img-container {
+    width: 18%;
+  }
+  #portfolio-img-card-one {
+    width: 42%;
+  }
+
+  #portfolio-img-card-two {
+    width: 42%;
+  }
+
+  #title {
+    margin: 2% auto 2% auto;
+    font-size: 2.9em;
+  }
+  .proj-title {
+    font-size: 2.4em;
+  }
+  .proj-subtitle {
+    font-size: 2.1em;
+  }
   .proj-dets-img-container.monoto {
-    width: 43%;
-    height: 45%;
+    width: 44%;
+    height: 43%;
   }
   #monoto-img-email-holder{
     width: auto;
