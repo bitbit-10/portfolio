@@ -250,19 +250,19 @@ a:focus {
   padding-right: 0%;
 }
 .points.monoto {
-  width: 70%;
+  width: 64%;
   float: left;
   /*border: 1px solid red;*/
 }
 .tech-stack.monoto {
-  width: 28%;
+  width: 27%;
   float: right;
   /*border: 1px solid green;*/
 }
 .scroll-up {
   margin-top: 2%;
   width: 87%;
-  font-size: 3.7em;
+  font-size: 3.4em;
   font-weight: 100;
   color: #4f4f4f;
   opacity: 0.95;
