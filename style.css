@@ -44,7 +44,7 @@ width:100%;
   background: transparent;
 }
 #slide-2 {
-  height: 99%;
+  height: 104%;
   background-color: white;
 }
 #slide-c {
@@ -52,7 +52,7 @@ width:100%;
   background: transparent;
 }
 #slide-3 {
-  height: 153%;
+  height: 155%;
   background-color: white;
 }
 #slide-d {
@@ -253,7 +253,7 @@ width:100%;
   /*border: 1px solid green;*/
 }
 .scroll-up {
-  margin-top: 3%;
+  margin-top: 2%;
   width: 87%;
   font-size: 3.7em;
   font-weight: 100;
