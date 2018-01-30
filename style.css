@@ -218,8 +218,8 @@ width:100%;
   width: 100%;
   float: left;
   margin-top: 4%;
-  padding-left: 8%;
-  padding-right: 1%;
+  padding-left: 7%;
+  padding-right: 0%;
 }
 
 .quote {
@@ -239,15 +239,16 @@ width:100%;
   width: 28%;
   float: right;
 }
+
 .points.monoto {
-  width: 73%;
+  width: 70%;
   float: left;
-  /*border: 1px solid red;*/
+  border: 1px solid red;
 }
 .tech-stack.monoto {
-  width: 25%;
+  width: 28%;
   float: right;
-  /*border: 1px solid green;*/
+  border: 1px solid green;
 }
 
 @media only screen and (min-width: 400px) {
