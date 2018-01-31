@@ -38,7 +38,7 @@ a:focus {
 }
 
 #slide-1 {
-  height: 40%;
+  height: 60%;
   background-color: white;
 }
 #slide-b {
@@ -150,7 +150,7 @@ a:focus {
     margin-top: -5%;
     width: 75%;
     position: absolute;
-    padding-left: 59.5%;
+    padding-left: 59%;
     /*border: 1px solid green;*/
   }
   .click-me {
@@ -173,7 +173,7 @@ a:focus {
     float: left;
   }
   .click-me-container.monoto{
-    padding-left: 43%;
+    padding-left: 45%;
     /*border: 1px solid green;*/
   }
 /*== Proj Details ==*/
