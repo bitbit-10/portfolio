@@ -38,7 +38,7 @@ a:focus {
 }
 
 #slide-1 {
-  height: 60%;
+  height: 40%;
   background-color: white;
 }
 #slide-b {
@@ -46,7 +46,7 @@ a:focus {
   background: transparent;
 }
 #slide-2 {
-  height: 106%;
+  height: 123%;
   background-color: white;
 }
 #slide-c {
